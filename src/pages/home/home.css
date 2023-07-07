@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  text-align: center;
+}
+ .column2 {
+   
+    padding: 10px;
+    flex: 50%;
+    align-content: center;
+    padding-left: 7%;
+    
+  }
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .column2{
+      margin-left: 0px;
+    }
+  }

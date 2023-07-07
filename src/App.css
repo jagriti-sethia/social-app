@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+body {
+  font-family: 'Uchen', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #5d3b63;
+  --primary-dark: #efbbfa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey-color: #9ca3af;
+  --lightgrey-color: #e5e7eb;
+  --red-color: red;
+  --offwhite-color: #faf9f9;
+  --primary-darkmode: #121212;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgDarkmode {
+  background-color: var(--primary-darkmode) !important;
+  color: var(--white-color) !important;
+ }
+ .bgSecondaryDarkMode {
+  background-color: var(--primary-darkmode) !important;
+  color: var(--white-color) !important;
+  /* border-radius: 5px !important; */
+  border-color: white !important;
+  box-shadow: rgb(255, 255, 255) ;
 }

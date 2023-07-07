@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+  }
+   .column2 {
+     
+      padding: 10px;
+      flex: 50%;
+      padding-left: 7%;
+      align-items: center;
+      
+    }
+    @media (max-width: 800px) {
+      .flex-container {
+        flex-direction: column;
+      }
+      .column2{
+        margin-left: 0px;
+      }
+    }
