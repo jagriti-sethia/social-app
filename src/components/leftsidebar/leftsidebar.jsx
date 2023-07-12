@@ -24,7 +24,7 @@ const Leftsidebar = () => {
       <div className={`column1 ${darkMode && "bgDarkmode"}`}>
         <div className={`left-sidebar  ${darkMode && "bgDarkmode"}`}>
           <NavLink to="/" className={`left-sidebar-items  ${darkMode && "bgDarkmode"}`} style={getActiveStyle }>
-            <i className="fa-solid fa-house"></i> <span>Homeae</span>
+            <i className="fa-solid fa-house"></i> <span>Home</span>
           </NavLink>
           <NavLink
             to="/explore"
