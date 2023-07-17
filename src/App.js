@@ -13,6 +13,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Signup from "./pages/signup/signup";
 import Landing from "./pages/landing/landing";
+import PageNotFound from "./pages/pagenotfound/pagenotfound";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/bookmarks' element={<Bookmarks />} /> 
         <Route path='/likedposts' element={<Likedposts />} /> 
         <Route path='/profile/:username' element={<Profile />} /> 
+        <Route path="/*" element={<PageNotFound />} />
         </Route>
         <Route path='/explore' element={<Explore />} /> 
         </Routes>
