@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ErrorImage from "../../assets/404errorimage.svg";
+import ErrorImage from "../../assets/404errorimage.jpg";
 import { useNavigate } from "react-router-dom";
 import "./pagenotfound.css";
 import { DataContext } from "../../contexts/datacontext";
