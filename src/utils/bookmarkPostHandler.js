@@ -25,7 +25,3 @@ export const addToBookmarkPostHandler = async (
     console.error(e);
   }
 };
-
-
-
-
