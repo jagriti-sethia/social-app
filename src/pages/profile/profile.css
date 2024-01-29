@@ -176,6 +176,9 @@
         padding-bottom: 90px;
         margin: auto;
       }
+      .column2{
+        margin: auto;
+      }
     }
     
     @media only screen and (max-width: 1024px) and (min-width: 601px) {
