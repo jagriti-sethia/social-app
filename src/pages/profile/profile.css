@@ -177,13 +177,13 @@
         margin: auto;
       }
       .column2{
-        margin: auto;
+       padding: auto;
       }
     }
     
     @media only screen and (max-width: 1024px) and (min-width: 601px) {
       .profile-main {
-        width: 52%;
+        width: 500px;
       }
     }
     @media (max-width: 800px) {
