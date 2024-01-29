@@ -1,5 +1,5 @@
 .container {
-  width: 500px;
+  /* width: 500px; */
   
   border: 1px solid var(--grey-color);
   border-radius: 5px;
